@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h2>Studying form</h2>
+    <!-- when we click on any button, we want some action to happen
+so, the action attribute of form tag  takes us to that place where we want to take some action
+the method attribute have two values - get and post
 
-    <form action="">
-        <!-- label binds with the input type -->
-        <label for="Name">Name: </label>
-        <input type="text" name="" id="Name">
-        <br><br>
-        <!-- the input id should be same as the label for -->
-        <label for="Password">Password :</label>
-        <input type="password" name="" id="Password">
-        <br><br>
-        <button>Submit</button>
-    </form>
+the get method is used when we want to pass the query parameters in url
+http://127.0.0.1:5500/Lecture%202/forms/index.html?username=abcd&password=abcde# 
+if status is between 200-299 then it is success status and 400-499, it is the danger status
+# for get
+and / for post
+the post does not show in the url
+-->
+    <fieldset>
+        <legend>Form Data</legend>
+        <form action="/" method="post">
+            <!-- label binds with the input type -->
+            <label for="Name">Name: </label>
+            <input type="text" name="username" id="Name">
+            <br><br>
+            <!-- the input id should be same as the label for -->
+            <label for="Password">Password :</label>
+            <input type="password" name="password" id="Password">
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </fieldset>
 </body>
+
 </html>
