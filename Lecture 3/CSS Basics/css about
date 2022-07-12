@@ -1,4 +1,17 @@
 3 ways to add CSS - inline, internal and exteernal
 
 1. inline - styling part is to be done in the line itself
-2. internal - styling 
+    why we do not prefer the inline css?  -   because of unncessary labour work and changing things individually.
+2. internal - styling part for the elements is done within the head of the web page. it uses the "style" tag
+    why internal css is not always good? - all the elements of same type will be selected and changed according 
+    to the property alloted i.e., we can not provide separate properties for different elements of a single type of tag.
+3. external - this is one of the most "practiced" way
+    one file externally present contains all the styling.
+    used to make code neat and easy to read and make changes to it easily
+
+time comparision
+    external takes the most time
+        external > internal > inline
+
+priority
+    inline > internal > external

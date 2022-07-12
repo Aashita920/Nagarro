@@ -1,0 +1,25 @@
+
+div p{
+    color: brown;
+} 
+
+section p{
+    color: white;
+    background-color: red;
+} 
+
+section{
+    border: 2px dotted green;
+    background-color: lightcyan;
+    border-radius: 10%;
+}
+article{
+    background-color: purple;
+}
+p{
+    text-transform: capitalize;
+    text-decoration: underline dashed;
+}
+h1{
+    color: cyan;
+}

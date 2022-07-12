@@ -1,0 +1,16 @@
+selectors - selection of elements and applying properties to inputs
+
+
+    1. Basic selectors
+        1.1 Element - consider specific element
+        1.2 universal - consider all elements available
+        1.3 ID
+        1.4 Class
+        1.5 Attribute
+
+    2. Advanced selectors
+        2.1 Combinators
+            2.1.1 descendant combinators
+            2.1.2 child combinators
+            2.1.3 adjacent siblings combinators
+            2.1.4 general siblings combinators

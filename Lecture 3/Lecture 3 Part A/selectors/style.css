@@ -1,0 +1,63 @@
+/* element selector */
+/* a{
+    color: aqua;
+}
+p{
+    font-size: 25px;
+} */
+
+/* universal selector */
+/* 
+*{
+    border: 2px solid black;
+} 
+*/
+
+/* id selector */
+/* #nagarro{
+    text-decoration: underline;
+   color: blue; 
+} */
+
+/* #codingblocks{
+   font-size: 25px;
+   background-color: green;
+} */
+
+/* for two elements, the class can be same
+but the id is supposed to be unique. */
+
+/* class selector */
+/* same class cambe used by many elements */
+
+/* .example{
+    text-decoration: overline;
+    color: coral;
+    background-color: cadetblue;
+} */
+
+/* using classes we can select multiple elements at the same time to provide them with decoration */
+
+/* .para{
+    border: 2px dotted black;
+
+} */
+
+/* attribute selector */
+/* input[placeholder]{
+    color: red;
+} */
+
+/* a[href="https://facebook.com"]{
+    font-size: 40px;
+}
+
+input[type="text"]{
+    background-color: blue;
+    border: 5px solid green;
+}
+
+p[id = "nagarro"]{
+    color: red;
+} */
+
