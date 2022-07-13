@@ -1,0 +1,27 @@
+/* includes only those li which are inside section */
+/* descendant combinators */
+
+/* section ul li{
+    color: aquamarine;
+}
+section li{
+    border: 2px solid black;
+} */
+
+/* child combinator */
+
+/* section > div > ul > li{
+background-color: bisque;
+} */
+
+/* adjacent siblings */
+
+/* article + div  {
+background-color: brown;
+} */
+
+/* general sibling */
+
+article ~ div{
+    background-color: brown;
+}

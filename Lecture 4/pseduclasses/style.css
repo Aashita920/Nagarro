@@ -1,0 +1,35 @@
+h1{
+    text-decoration: underline;
+    color: blueviolet;
+}
+div{
+    width:200px;
+    height: 200px;
+    background-color: red;
+}
+
+div:hover{
+background-color: aqua;
+transition: 600ms;
+}
+
+/* active  - clicking once*/
+
+div:active{
+    background-color: antiquewhite;
+}
+
+
+/* focus */
+
+input:focus {
+    background-color: lightblue;
+}
+button:focus {
+    background-color: lightcoral;
+}
+
+/* visited */
+/* a:visited{
+    color: green;
+} */

@@ -1,0 +1,13 @@
+https://coolors.co/
+
+total 24 bits
+
+primary colors - red green blue
+each with 8 bit
+
+possible values 2^8 => 256*256*256 => 16 million color combos
+
+three ways
+    1. hexadecimal  - includes 0-9 and a-f
+    2. rgb()
+    3. rgba()

@@ -1,0 +1,22 @@
+/* hexadecimal way */
+#p1{
+    color: #ffafcc;
+}
+/* rgb way */
+/* max value possible 255 */
+#p2{
+color: rgb(247, 247, 13);
+}
+
+/* rgba way */
+
+#cc{
+    /* alpha value have range from 0-1 */
+    /* 0 is transparent and 1 is opaque */
+   background-color:  rgba(120, 23, 34, 0.4);
+}
+
+#cc{
+    width: 200px;
+    height: 200px;
+}
