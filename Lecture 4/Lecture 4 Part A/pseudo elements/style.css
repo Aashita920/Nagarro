@@ -1,0 +1,47 @@
+/* li{
+    color: red;
+} */
+
+/* li:nth-last-child(3){
+    color: blue;
+}
+
+li:nth-last-child(4){
+    color: #ccd5ae;
+    background-color: #d4a373;
+} */
+
+/* li:nth-of-type(odd){
+    border: 2px solid black;
+} */
+
+/* li:nth-of-type(even){
+   background-color: brown;
+} */
+
+/* li:nth-of-type(3n+7){
+    color: red;
+} */
+
+/* li:last-child{
+    background-color: aqua;
+} */
+
+/* li:first-child{
+    background-color: red;
+} */
+
+h2::first-letter{
+    font-size: 80px;
+}
+p::first-line{
+    background-color: brown;
+}
+
+li:nth-of-type(2)::after{
+content:"\2665";
+color: red;
+}li:nth-of-type(2)::before{
+content:"\2665";
+color: red;
+}

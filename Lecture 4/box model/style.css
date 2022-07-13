@@ -1,0 +1,36 @@
+section{
+    /* it is preferable to give only one height or width parameter */
+    width: 200px;
+    /* height: 400px; */
+    border: 2px solid black;
+}
+
+div > h2{
+    border: 2px dotted orange;
+    background-color: lightgray;
+    /* to give space between or outside the elements */
+    /* marging from top , bottom right and left */
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+ul>li{
+    margin: 10px;
+}
+
+#abc{
+    /* top-bottom and left- right */
+    margin: 20px 100px;
+}
+
+/* padding - giving space inside the element */
+
+#demoforpadding{
+    margin: 20px 30px;
+    border: 3px dotted;
+    width: 400px;
+    height: 70px;
+    padding: 20px;
+    padding-left: 70px;
+}
