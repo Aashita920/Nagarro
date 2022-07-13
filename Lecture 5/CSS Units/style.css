@@ -1,0 +1,8 @@
+section{
+    font-size: 40px;
+}
+
+section div:nth-of-type(2){
+    /* the percentage takes the property according to the parent and manipulates itself*/
+    font-size: 40%;
+}
