@@ -1,0 +1,57 @@
+/* positions-- */
+
+/* could be static, relative, absolute, fixed, sticky */
+/* needs some offsets like top, bottom, left, right ,etc */
+
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+section{
+    position: relative;
+    border: 2px solid red;
+
+}
+
+/* if we give position as static, no offset like top... does not work on it */
+#static #middle{
+    position: static;
+    top: 200px;
+    left: 300px;
+}
+
+#relative #middle{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+/* it takes the positioning according to the parent who was manipulated recently */
+#absolute #middle{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* fixed */
+#fixed #middle {
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    width: 200px;
+    border: 3px solid #141b0b;
+  }
+
+/* sticky */
+
+#sticky #middle {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 4px solid #4CAF50;
+  }
