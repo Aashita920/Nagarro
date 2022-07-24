@@ -1,8 +1,35 @@
-section{
+/* section{
     font-size: 40px;
+} */
+
+/* section div:nth-of-type(2){*/
+    /* the percentage takes the property according to the parent and manipulates itself*/
+   /* font-size: 40%;
+} */
+
+/* div:nth-of-type(2){
+    font-size: 2em;
+} */
+
+/* also takes property according to the parent and have the snow ball effect */
+/* li{
+    font-size: 2em;
+} */
+
+/* it takes property according to the root element - HTML */
+/* ul{
+    font-size: 2rem;
+} */
+
+/* height according to the view port */
+div:nth-of-type(1){
+    background-color: aquamarine;
+    height: 20vh;
 }
 
-section div:nth-of-type(2){
-    /* the percentage takes the property according to the parent and manipulates itself*/
-    font-size: 40%;
+/* width according to the view port */
+
+div:nth-of-type(2){
+    background-color: aqua;
+    height: 20vw;
 }
