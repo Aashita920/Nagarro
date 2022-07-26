@@ -1,0 +1,2 @@
+=>  always add your bootstrap css above your stylesheet - flow of control is from top to bottom, which is enountered lately is given more preference, that is why if we want to override any predefined bootstrap properties , we need to use our stylesheet lately.
+
