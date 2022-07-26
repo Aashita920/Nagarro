@@ -1,8 +1,11 @@
-/* to use a class */
 .divv{
+    /* width: 100px; */
+    height: 100px;
     background-color: aqua;
     border: 2px solid green;
-    height: 100px;
-    /* width: 100px; */
 }
-
+/* 
+.navbar a{
+    background-color: blue;
+    color: red;
+} */
